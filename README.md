@@ -12,6 +12,7 @@ A Django REST API for managing property listings and bookings. This application 
 - API Documentation with Swagger/ReDoc
 - MySQL Database Integration
 - Celery Task Queue Integration
+- Database Seeding for Development
 
 ## Tech Stack
 
@@ -74,6 +75,16 @@ python manage.py migrate
 ```bash
 python manage.py createsuperuser
 ```
+
+8. (Optional) Seed the database with sample data:
+```bash
+python manage.py seed
+```
+This will create:
+- 7 sample users (5 regular users, 2 staff users)
+- 14 property listings (2 per user)
+- Multiple bookings and reviews
+All sample users have the password: `password123`
 
 ## Running the Application
 
