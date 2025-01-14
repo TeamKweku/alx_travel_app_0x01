@@ -2,16 +2,6 @@
 
 A Django REST API for managing property listings and bookings. This application provides endpoints for creating and managing property listings, handling bookings, and managing reviews.
 
-## API Documentation
-
-The API is fully documented using Swagger/OpenAPI specification. You can explore and test the API endpoints using the interactive documentation.
-
-### Swagger UI
-![Swagger UI](assets/swagger-ui.png)
-
-Access the interactive documentation at:
-- Swagger UI: `/swagger/`
-- ReDoc: `/redoc/`
 
 ## Features
 
