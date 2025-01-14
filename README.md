@@ -122,7 +122,6 @@ The API is fully documented using Swagger/OpenAPI specification. You can explore
 
 ### Swagger UI
 ![Swagger UI](assets/swagger.png)
-s
 - Swagger UI: `/swagger/`
 - ReDoc: `/redoc/`
 
